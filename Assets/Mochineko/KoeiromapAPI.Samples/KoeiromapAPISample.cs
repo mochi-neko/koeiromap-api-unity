@@ -54,7 +54,7 @@ namespace Mochineko.KoeiromapAPI.Samples
             await UniTask.SwitchToThreadPool();
 
             var synthesisResult = await policy.ExecuteAsync(
-                async innerCancellationToken => await SpeechSynthesisAPI.SynthesisAsync(
+                async innerCancellationToken => await SpeechSynthesisAPI.SynthesizeSpeechAsync(
                     HttpClient,
                     text,
                     innerCancellationToken,
