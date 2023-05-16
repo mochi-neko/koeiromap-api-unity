@@ -1,5 +1,11 @@
 # koeiromap-api-unity
 
+A client library for [Koeiromap API](http://koeiromap.rinna.jp/) for Unity.
+
+## How to import by Unity Package Manager
+
+Add following dependencies to your `manifest.json`:
+
 ```json
 {
   "dependencies":
@@ -12,3 +18,20 @@
   }
 }
 ```
+.
+
+## How to use
+
+See [sample implementation](./Assets/Mochineko/KoeiromapAPI.Samples/KoeiromapAPISample.cs).
+
+## Change log
+
+See [CHANGELOG.md](./CHANGELOG.md)
+
+## 3rd party notices
+
+See [NOTICE.md](./NOTICE.md)
+
+## License
+
+Licensed under the [MIT License](./LICENSE).
