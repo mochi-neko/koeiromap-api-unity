@@ -15,7 +15,7 @@ namespace Mochineko.KoeiromapAPI
     public static class SpeechSynthesisAPI
     {
         private const string EndPoint = "https://api.rinna.co.jp/models/cttse/koeiro";
-        private const string ResponsePrefix = "data:audio/wav;base64,";
+        private const string ResponsePrefix = "data:audio/x-wav;base64,";
 
         public static async UniTask<IUncertainResult<SpeechSynthesisResult>> SynthesisAsync(
             HttpClient httpClient,
@@ -51,7 +51,7 @@ namespace Mochineko.KoeiromapAPI
             var serializationResult = RelentJsonSerializer.Serialize(
                 requestBody,
                 Formatting.Indented,
-                new JsonSerializerSettings()
+                new JsonSerializerSettings
                 {
                     NullValueHandling = NullValueHandling.Ignore,
                 });

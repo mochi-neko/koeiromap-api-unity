@@ -1,0 +1,20 @@
+{
+    "name": "Mochineko.KoeiromapAPI.Samples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1a9316ea4935a4907b1495ea3b20a67e",
+        "GUID:2620e54ab6edb48f48d55966fd5662fb",
+        "GUID:51d11816546934d4a937e4a420478ce5",
+        "GUID:ed5edd2439f854f75a164ed9d6e1f3bc",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
