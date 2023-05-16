@@ -1,0 +1,15 @@
+{
+  "name": "com.mochineko.koeiromap-api",
+  "version": "0.1.0",
+  "displayName": "Koeiromap API",
+  "description": "Koeiromap API Client for Unity.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Mochineko",
+    "email": "t.o.e.4315@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:mochi-neko/koeiromap-api-unity.git"
+  }
+}
